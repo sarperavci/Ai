@@ -38,9 +38,9 @@ def get_bot_response():
     return str(answer_last)
  
 
-port = int(os.environ.get('PORT', 5000))
+#port = int(os.environ.get('PORT', 5000))
 
 
 # heroku app
-if __name__ == "__main__":
-  app.run(port=port, debug=True) 
+# if __name__ == "__main__":
+#     app.run(port=3000)
